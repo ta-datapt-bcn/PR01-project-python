@@ -1,7 +1,8 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Build your own game!
 # PR01-project-python
+# Build your own game!
+
 First project of the Module 1
 
 ## Content
