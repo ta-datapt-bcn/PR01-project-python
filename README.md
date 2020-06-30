@@ -62,7 +62,7 @@ The **deadline** to turn in the deliverables is right before the project present
 | Saturday to Friday|  
 |:--------:|
 * Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-1-Build-Your-Own-Game/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date. 
+* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
 * Once you finish, start coding!
 * Make the Presentation
 
