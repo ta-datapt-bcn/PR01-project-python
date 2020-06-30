@@ -35,7 +35,9 @@ You must come to an agreement with your colleagues so **maximum 2 persons** deve
 ## Project Goals
 During this project you will:
 * Fork and manage your own git repository. 
+* Create a folder /game/ to wrap your code files.
 * Build your own code from scratch (except for the Escape Room). 
+* Include a README.MD for your game.
 * Put into practice the basic python concepts learned during the week.
 * Get used to public presentations. 
 
