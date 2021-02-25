@@ -3,7 +3,7 @@
 # Title of Your Project
 *[Gloria Camp]*
 
-*[Data Analysis, Barcelona & 27 Feb 021]*
+*[Data Analysis, Barcelona & 27 Feb 2021]*
 
 ## Content
 - [Project Description](#project-description)
@@ -13,7 +13,7 @@
 - [Links](#links)
 
 ## Project Description
-In this project I will create the **game Mastermind** where the user interacts with the computer.  My game will be able to take an input from the user and provide an output from the computer. 
+In this project have created the **game Mastermind** where the user interacts with the computer.  My game will be able to take an input from the user and provide an output from the computer. 
 
 ## Rules
 
@@ -58,12 +58,12 @@ I used trello, please see link further down.
 My repository contains the following files: 
 - Read_Mastermind.me 
 - Mastermindfinal.py 
-- Mastermindfinal.ipynb (contains de code in a class)
-- Mastermindparts.ipynb (Contains de different function separately)
+- Mastermindparts.ipynb (contains the different functions separately)
+- Mastermindfinal.ipynb (contains the code in a class)
 
 
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-[Repository](https://github.com/)  
+[Repository]https://github.com/Glory85/PR01-project-python.git  
 [Trello] https://trello.com/invite/b/XUo4npN2/9ac21bf88fa0e38aa954f2e0a3450a38/project-1-build-your-own-game-mastermind
