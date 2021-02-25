@@ -13,30 +13,30 @@
 - [Links](#links)
 
 ## Project Description
-In this project have created the **game Mastermind** where the user interacts with the computer.  My game will be able to take an input from the user and provide an output from the computer. 
+In this project I have created the **game Mastermind** where the user interacts with the computer.  My game will be able to take an input from the user and provide an output from the computer. 
 
 ## Rules
 
 Goal: to guess a secret code consisting of a series of 4 colored pegs. Each guess results in feedback narrowing down the possibilities of the code. 
 
-Number of players: 2
+Number of players: 2 (the player and the computer)
 
 Game pieces: 
 
-- A set of colored guess pegs (yellow, red, blue, green, pink, orange)
+- A set of colored pegs (yellow, red, blue, green, pink, orange)
 - A set of white and black answer pegs
 - Board: 8 X 10
 
 Players: 
 
-- Code maker: the computer: 
-    1. The computer will  place any combination of 4 colored guess pegs on a line. 
-    2. In response to the code guesser's choice:
+- Code maker (the computer): 
+    1. The computer will place any combination of 4 colored pegs on a line. 
+    2. In response to the player's choice:
         The computer will use the white pegs to indicate how many pegs are the correct color but wrong position.
         The computer will use a black peg to indicate how many pegs are in a correct position and are the right color. 
         If neither are true, then no peg should be placed. 
-- Code guesser:
-    1. will have to place 4 color pegs in every round (colors can be repeated)
+- Code guesser (the player):
+    1. The player will have to place 4 color pegs in every round (colors can be repeated)
     2. The code guesser only
 
 Note: The code maker may place these pegs in any order. 
@@ -63,7 +63,6 @@ My repository contains the following files:
 
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
 [Repository]https://github.com/Glory85/PR01-project-python.git  
 [Trello] https://trello.com/invite/b/XUo4npN2/9ac21bf88fa0e38aa954f2e0a3450a38/project-1-build-your-own-game-mastermind
