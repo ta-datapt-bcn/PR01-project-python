@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
+# MASTERMIND
 *[Gloria Camp]*
 
-*[Data Analysis, Barcelona & 27 Feb 2021]*
+*[Data Analysis, Barcelona, 27 Feb 2021]*
 
 ## Content
 - [Project Description](#project-description)
@@ -36,7 +36,7 @@ Players:
         The computer will use a black peg to indicate how many pegs are in a correct position and are the right color. 
         If neither are true, then no peg should be placed. 
 - Code guesser (the player):
-    1. The player will have to place 4 color pegs in every round (colors can be repeated)
+    1. The player will have to place 4 colored pegs in every round (colors can be repeated)
     2. The code guesser only
 
 Note: The code maker may place these pegs in any order. 
