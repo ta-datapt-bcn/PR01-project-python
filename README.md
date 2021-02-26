@@ -13,7 +13,7 @@ Creador de la baraja francesa con los métodos: mezclar random (barajar, valga l
 ## Clase Mano
 
 **Atributos**
-* nombre: para distinguir banca (CPU) del jugador
+* nombre: para distinguir banca (CPU) del jugador (init)
 * cartas: cartas en la mano
 * puntos: a los que equivalen las cartas
 * AS: número de ases en la mano (para el cálculo de puntos
