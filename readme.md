@@ -32,7 +32,7 @@ Battleship is a strategy type guessing game for two players. It is played on rul
 
 ## Organization
 
-"<img src=\"Trello.png" width=\"400\">"
+<img src=\"Trello.png">
 
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
