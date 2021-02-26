@@ -13,7 +13,7 @@
 - [Links](#links)
 
 ## Project Description
-Who hasn't played hangman? The original game is a paper an pencil one, but here we are to bring it to the next level using Python. 
+Who hasn't played hangman? The original game is a paper and pencil one, but here we are to bring it to the next level using Python. 
 
 ## Rules
 In this version, you choose the difficulty level. Then, based on the choice, the computer thinks of a word and you try to guess it by suggesting letters with a certain amount of tries. Of course, the illustration is also there to add a bit more of pressure. Wouldn't you want to leave that poor man on his own, would you?
