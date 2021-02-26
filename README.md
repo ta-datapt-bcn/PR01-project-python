@@ -1,38 +1,36 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # PR01-project-python
-# Build your own game!
+# BLACK JACK
 
-First project of the Module 1
-
+Xabi Lopez Alfonso
 ## Content
-- [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Clase Baraja](#project-description)
+- [Clase Mano (banca vs jugador)](#games)
+- [Clase Juego](#project-goals)
 
-## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+## Clase Baraja
 
-You will also present your game to the class with a **10 minutes presentation**. 
+Creador de la baraja francesa con la función de mezclar random (barajar, valga la redundancia) y repartir cartas (pop)
 
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
 
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
+## Clase Mano
 
-## Project Goals
+**Atributos**
+* nombre: para distinguir banca (CPU) del jugador
+* cartas: cartas en la mano
+* puntos: a los que equivalen las cartas
+* AS: número de ases en la mano (para el cálculo de puntos
+* blackjack: saber si la mano suma 21
+
+**Funciones:**
+* recibir:añadir carta
+* calcular:calcular puntos de las cartas
+* mostrar:mostrar cartas y puntos
+* revelar:mostrar última carta recibida
+* comprobar blackjack (BJ): saber si la mano suma 21... devuelve True/False
+
+## Clase juego
 During this project you will:
 * Fork and manage your own git repository. 
 * Create a folder /game/ to wrap your code files.
