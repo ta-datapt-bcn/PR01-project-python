@@ -5,9 +5,9 @@
 
 Xabi Lopez Alfonso
 ## Content
-- [Clase Baraja](#project-description)
-- [Clase Mano (banca vs jugador)](#games)
-- [Clase Juego](#project-goals)
+- [Clase Baraja](#baraka)
+- [Clase Mano (banca vs jugador)](#mano)
+- [Clase Juego](#juego)
 
 ## Clase Baraja
 
