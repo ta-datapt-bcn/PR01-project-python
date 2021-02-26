@@ -16,24 +16,25 @@ Usaré esta herramienta para estructurar el proyecto y hacer el seguimiento
 Antes de empezar a introducir código voy a redactar los elementos que forman el juego, las normas y la comprobación del resultado.
 
 #### Elementos:
-1. Jugadores: usuario vs máquina (Banca)
-2. Baraja
-3. Valor de las cartas
+1. Baraja.
+2. Valor cartas.
+3. Valor manos jugadores.
+4. Elecciones jugadores.
 
 
 #### Normas:
-1. Banca mezcla la baraja
+1. Banca mezcla la baraja.
 2. Jugadores realizan una apuesta inicial
 3. Repartir 1 carta al usuario y a la banca, boca arriba. La banca en último lugar.
-4. Repartir 1 carta solamente al usuario boca arriba.
+4. Repartir 1 carta al usuario (boca arriba) y a la banca (boca abajo).
 5. Turno del usuario. El usuario podrá:
-        5.1 Si tiene algún As, decidir si el As vale 1 u 11
-          5.2 Si las dos cartas tienen el mismo valor, podrá separar y doblar apuesta
-          5.4 Pedir carta – Si  el valor total no es superior a 21. Si recibe un As debe decidir si su valor es 1 u 11
-          5.5 Plantarse – mantiene el valor de sus cartas
-          5.6 El jugador es eliminado si el valor de sus cartas supera 21
-6.Turno de la banca: deberá pedir carta si el valor es igual o inferior a 16, y plantarse si el valor es de 17 a 21. Es eliminada si el valor es superior a 21
-7. Vuelta a empezar
+	5.1 Si tiene algún As, decidir si el As vale 1 u 11
+	5.2 Si las dos cartas tienen el mismo valor, podrá separar y doblar apuesta
+	5.4 Pedir carta – Si  el valor total no es superior a 21. Si recibe un As debe decidir si su valor es 1 u 11
+	5.5 Plantarse – mantiene el valor de sus cartas
+6. Turno de la banca: deberá pedir carta si el valor es igual o inferior a 16, y plantarse si el valor es de 17 a 21. Es eliminada si el valor es superior a 21
+7. En caso de que ninguno de los dos jugadores haya sido eliminado, se comprueba el resultado.
+8. Una vez acabada la partida, se ofrece al jugador la posibilidad de volver a jugar otra partida.
 
 
 #### Resultado:
@@ -51,6 +52,6 @@ Desarrollaré el código en un .ipynb para pasarlo posteriormente a un bloque de
 
 Para poder ejecutar el código, el usuario tendrá dos opciones:
 
-a) Ejecutar el archivo Proyecto1_Carlos_Azagra.py desde la terminal
+a) Ejecutar el archivo Project_Blackjack.py desde la terminal
 
-b) Importando el archivo en un notebook e invocando a la función ...
+b) Importando el archivo en un notebook e invocar a la classe BlackJack y a la función welcome()
