@@ -1,86 +1,56 @@
-<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
+# Project_1_BlackJack
 
-# PR01-project-python
-# Build your own game!
+## Definición
 
-First project of the Module 1
+Este proyecto consistirá en desarrollar código para realizar un juego interactivo entre la máquina y un jugador.
 
-## Content
-- [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+Utilizaré conocimientos de nivel básico que hemos visto al inicio de este curso. Principalmente funciones y List comprehensions.
 
-## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+## Pasos a seguir
+### Planificación del proyecto con KANBAN
 
-You will also present your game to the class with a **10 minutes presentation**. 
+Usaré esta herramienta para estructurar el proyecto y hacer el seguimiento
 
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
+### Definición del funcionamiento del juevo: Pasos y Comprobación de resultado
 
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
+Antes de empezar a introducir código voy a redactar los elementos que forman el juego, las normas y la comprobación del resultado.
 
-## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Create a folder /game/ to wrap your code files.
-* Build your own code from scratch (except for the Escape Room). 
-* Include a README.MD for your game.
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
-
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using a Kanban, a Trello board or a github project. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
-
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
-
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Thursday|  
-|:--------:|
-* Choose your game.
+#### Elementos:
+1. Jugadores: usuario vs máquina (Banca)
+2. Baraja
+3. Valor de las cartas
 
 
-| Saturday to Friday|  
-|:--------:|
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Once you finish, start coding!
-* Make the Presentation
+#### Normas:
+1. Banca mezcla la baraja
+2. Jugadores realizan una apuesta inicial
+3. Repartir 1 carta al usuario y a la banca, boca arriba. La banca en último lugar.
+4. Repartir 1 carta solamente al usuario boca arriba.
+5. Turno del usuario. El usuario podrá:
+        5.1 Si tiene algún As, decidir si el As vale 1 u 11
+          5.2 Si las dos cartas tienen el mismo valor, podrá separar y doblar apuesta
+          5.4 Pedir carta – Si  el valor total no es superior a 21. Si recibe un As debe decidir si su valor es 1 u 11
+          5.5 Plantarse – mantiene el valor de sus cartas
+          5.6 El jugador es eliminado si el valor de sus cartas supera 21
+6.Turno de la banca: deberá pedir carta si el valor es igual o inferior a 16, y plantarse si el valor es de 17 a 21. Es eliminada si el valor es superior a 21
+7. Vuelta a empezar
 
-| Saturday|  
-|:--------:|
-* Time to present! 
 
-## Presentation
-The presentation time limit is **10 minutes**! 
+#### Resultado:
+1. El usuario que se ha pasado de 21 no entra en el reparto 
+2. Si el usuario tiene un valor más cercano a 21 que la banca
+	2.1. Si es Black jack, gana apuesta x 2,5 
+	2.2. Si no es Black jack, gana apuesta x 2
+3. Si el usuario tiene el mismo valor que la banca, recupera la apuesta
+4. Si el usuario tiene un valor más lejano a 21 que la banca, pierde la apuesta
 
-The slides of your presentation must include the content listed below and a demo of your game:
 
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Learnings    
-* If I were to start from scratch...    
-* Improvements  
-* Highlights  
-* Demo (ONE MINUTE)
+### Desarrollo del código para ejecutar el software
+
+Desarrollaré el código en un .ipynb para pasarlo posteriormente a un bloque de notas y guardaro como archivo Proyecto1_Carlos_Azagra.py para su ejecución desde la terminal.
+
+Para poder ejecutar el código, el usuario tendrá dos opciones:
+
+a) Ejecutar el archivo Proyecto1_Carlos_Azagra.py desde la terminal
+
+b) Importando el archivo en un notebook e invocando a la función ...
