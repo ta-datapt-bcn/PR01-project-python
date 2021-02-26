@@ -1,86 +1,14 @@
-<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
+# PRIMER PROYECTO BLACKJACK GAME
+## RESUMEN
 
-# PR01-project-python
-# Build your own game!
-
-First project of the Module 1
-
-## Content
-- [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
-
-## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
-
-You will also present your game to the class with a **10 minutes presentation**. 
-
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
-
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
-
-## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Create a folder /game/ to wrap your code files.
-* Build your own code from scratch (except for the Escape Room). 
-* Include a README.MD for your game.
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
-
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using a Kanban, a Trello board or a github project. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
-
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
-
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Thursday|  
-|:--------:|
-* Choose your game.
-
-
-| Saturday to Friday|  
-|:--------:|
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Once you finish, start coding!
-* Make the Presentation
-
-| Saturday|  
-|:--------:|
-* Time to present! 
-
-## Presentation
-The presentation time limit is **10 minutes**! 
-
-The slides of your presentation must include the content listed below and a demo of your game:
-
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Learnings    
-* If I were to start from scratch...    
-* Improvements  
-* Highlights  
-* Demo (ONE MINUTE)
+El juego inicia y pide una apuesta al jugador, acto seguido procede a repartir dando dos cartas al jugador 
+y dos al dealer aunque ocultando una de éste.
+Luego, pregunta al jugador si quiere otra carta o se planta, si el jugador pide otra y se pasa de 21 pierde 
+automaticamente, si no se pasa, repite el proceso y pregunta otra vez si el jugador quiere otra carta o se 
+planta, si se planta pasa a jugar el dealer y si sus cartas suman menos de 17 esta obligado a pedir otra 
+carta hasta superar 17.
+Si el dealer se pasa de 21 o tiene menos suma que el jugador, gana el jugador. Si el jugador tiene menos que 
+el dealer, gana el dealer y si tienen la misma cantidad empatan.
+Cuando gana el jugador suma su apuesta por el doble, cuando pierde, pierde esa apuesta.
+El jugador empieza con 300 puntos para apostar, si se queda a cero pierde aunque también tiene la opción de 
+plantarse cuando quiera.
