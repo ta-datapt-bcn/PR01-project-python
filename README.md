@@ -39,6 +39,5 @@ Creador de la baraja francesa con los métodos: mezclar random (barajar, valga l
 * continuar: al acabar una ronda, elegir si queremos jugar otra ronda o acabar el juego
 * acabar: mostrar saldo restante si seguimos jugando... o que se ha acabado el saldo y se acaba el juego
 
-| Xabi|  
+| Espero que os guste el juego!|  
 |:--------:|
-* Espero que os guste el juego!
