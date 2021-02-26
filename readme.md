@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
-*[Your Name]*
+# Project 1: Battleship
 
-*[Your Cohort, Campus & Date]*
+Marcos Palacios
+Barcelona, Part Time, Febrero 2021
 
 ## Content
 - [Project Description](#project-description)
@@ -18,7 +18,7 @@ Battleship is a strategy type guessing game for two players. It is played on rul
 
 ## Rules
 
-- Only one size of battleship, always odd. The recommended size is 3 (3,5,7...)
+- Only one size of battleship, always an odd number. The recommended size is 3 (3,5,7...)
 - Player cannot shot two times at the same spot.
 - Player can choose the size of the board and the number of ships in the game.
 - The IA always strikes first.
