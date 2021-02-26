@@ -33,6 +33,7 @@ In this version, you choose the difficulty level. Then, based on the choice, the
 
 ## Organization
 **How did you organize your work? Did you use any tools like a trello or kanban board?**
+
 As I'm used to work with Trello, I wanted to try the Github projects board. It's pretty much the same, but it keeps everything in just one place, which is always better. This way, the relevant files are not spread all over the internet. 
 
 One of the things that I'm missing compared to Trello, though, is that I cannot add a description or checklist to each specific note.
