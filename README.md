@@ -4,10 +4,6 @@
 # BLACK JACK
 
 Xabi Lopez Alfonso
-## Content
-- [Clase Baraja](#baraka)
-- [Clase Mano (banca vs jugador)](#mano)
-- [Clase Juego](#juego)
 
 ## Clase Baraja
 
