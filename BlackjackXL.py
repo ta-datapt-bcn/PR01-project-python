@@ -214,7 +214,7 @@ class Juego:
             if self.dinero > 0:
                 print(f'\nGracias por participar {self.nombre}, has ganado {self.dinero}€')
             elif self.dinero < 0:
-                print(f'\nGracias por participar {self.nombre}, has perdido {self.dinero}€')
+                print(f'\nGracias por participar {self.nombre}, has perdido {-self.dinero}€')
             else:
                 print(f'\nGracias por participar {self.nombre}, te quedas con tu saldo incial de {self.saldo_inicial}€')
         
