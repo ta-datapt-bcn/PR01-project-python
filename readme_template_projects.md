@@ -13,22 +13,29 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+
+Battleship is a strategy type guessing game for two players. It is played on ruled grids on which each player's fleet of ships (including battleships) are marked. The locations of the fleets are concealed from the other player. Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet. The version of battleship implemented in this project is a simplified one from the classical board game. 
 
 ## Rules
-Describe briefly the rules of the game you chose. 
+
+- Only one size of battleship, always odd. The recommended size is 3 (3,5,7...)
+- Player cannot shot two times at the same spot.
+- Player can choose the size of the board and the number of ships in the game.
+- The IA always strikes first.
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+
+- Designing the pseudocode of the whole program in different blocks
+- Programming and testing each different block.
+- Add some new features and testing them.
+- Creating the readme.md and the .gitignore.
 
 ## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
 
-What does your repository look like? Explain your folder and file structure.
+"<img src=\"Trello.png" width=\"400\">"
 
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Repository](https://github.com/MarcosPalacios/PR01-project-python)  
+[Trello](https://trello.com/b/zNno0vh8/battleship-project)  
