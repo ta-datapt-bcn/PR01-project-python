@@ -28,7 +28,7 @@ class Jugadores():
     def posicion_barcos(self):
         # Definición de la clase Barcos. Aquí se define el número de barcos y su tamaño, una vez definidos, los jugadores podran escojer donde posicionarlos:
 
-        barcos = {"Portaaviones (5 celdas)": 5}
+        barcos = {"Portaaviones (5 celdas)": 5, "Buque (2 celdas)": 2, "Acorazado (4 celdas)": 4}
         barcos_posiciones = {"Portaaviones (5 celdas)": [], "Buque (2 celdas)": [], "Acorazado (4 celdas)": [], "Submarino (3 celdas)": [], "Submarino_2 (3 celdas)": []}
 
         for k in barcos.keys():
