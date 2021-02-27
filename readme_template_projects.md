@@ -13,7 +13,7 @@
 - [Links](#links)
 
 ## Project Description
-I've chosen to build a game of tic-tac-toe to improve my use of functions, lists, loops and other basic Python tools. The game will be player vs machine.
+I've chosen to build a game of tic-tac-toe to improve my use of functions, lists, loops and other basic Python tools. The game will be player vs machine, and the cpu will always try to block a winning move.
 
 ## Rules
 The game is very simple. The player and the cpu will take turns filling the spaces of a 3*3 grid, and whoever marks three spaces in a row (vertical, horizontal or diagonal) wins.
