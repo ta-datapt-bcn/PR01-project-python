@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
-*[Your Name]*
+# Tic-tac-toe
+*Xavier Esteban Trullà*
 
-*[Your Cohort, Campus & Date]*
+*DAPT IH Barcelona Feb.2021*
 
 ## Content
 - [Project Description](#project-description)
@@ -13,22 +13,18 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+I've chosen to build a game of tic-tac-toe to improve my use of functions, lists, loops and other basic Python tools. The game will be player vs machine.
 
 ## Rules
-Describe briefly the rules of the game you chose. 
+The game is very simple. The player and the cpu will take turns filling the spaces of a 3*3 grid, and whoever marks three spaces in a row (vertical, horizontal or diagonal) wins.
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+The first step was researching the game and what kind of data structures would serve me better to hold the necessary data. After drawing a basic template of the game I wanted to create, list the necessary functions and define in pseudocode a rudimentary game loop I began to code.
 
 ## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
-
-What does your repository look like? Explain your folder and file structure.
+I used a Trello board to make a basic list of the tasks I'd have to perform. I also used several drafts and drawings using pen and paper.
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Repository](https://github.com/Xavier335/PR01-project-python)  
+[Trello](https://trello.com/b/9NTpOLfE/tic-tac-toe)  
