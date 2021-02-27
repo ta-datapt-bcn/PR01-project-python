@@ -17,18 +17,19 @@ class BlackJack():
     def welcome(self):
         # Welcome
         
-        print("""" Welcome to the Digital Casino. My name is Carlos Azagra and I will be acting
-        as your croupier. Tonight we will be playing the game of Black Jack. I will be playing in
-        name of the Digital Casino against you. I take for granted that you are familiar with the
-        rules of the game. Please take a sit, enjoy the game and good luck.""")
+        print("""Welcome to the Digital Casino. My name is Carlos Azagra and I will be acting
+as your croupier. Tonight we will be playing the game of Black Jack. I will be playing in
+name of the Digital Casino against you. I take for granted that you are familiar with the
+rules of the game. Please take a sit, enjoy the game and good luck.""")
         
         user_choice0= (input("Would you like to start gambling? [Y]es or [N]o? ")).upper()
         while user_choice0 not in self.again:
             user_choice0 = (input("Would you like to start gambling? [Y]es or [N]o? ")).upper()
         if user_choice0 == "Y":
-            BlackJack().game()
-        
+            self.game()
         else:
+            print("""So why did you come here??????
+Have a nice day""")
             pass
     
     
@@ -43,13 +44,14 @@ class BlackJack():
         while self.croupierhand <= 16:
             croupier_card3 = self.deck1.pop()
             self.croupierhand += int(self.num_value[croupier_card3])
-            print("Croupier card is {}. The value of your hand is {}.".format(croupier_card3, self.croupierhand))
+            print("Croupier card is {}. The value of croupier hand is {}.".format(croupier_card3, self.croupierhand))
         if self.croupierhand > 21:
-            print("The value of croupier hand is {}. You have won this hand.".format(self.croupierhand))
+            print("The value of croupier hand is {}. ".format(self.croupierhand))
+            self.croupierhand = 0
         else:
             print("Croupier stands.")
         
-        BlackJack().check_results()
+        self.check_results()
     
     
     def check_results(self):
@@ -61,7 +63,7 @@ class BlackJack():
         else:
             print("User {} - Croupier {}. User and Croupier have tied the game!".format(self.userhand,self.croupierhand))
     
-        BlackJack().play_other_hand()
+        self.play_other_hand()
         
         
         
@@ -71,13 +73,19 @@ class BlackJack():
         while play_again not in self.again:
             play_again = (input("Would you like to play again? [Y]es or [N]o? ")).upper()
         if play_again == "Y":
-            BlackJack().game()
+            if len(self.deck1) < 6:
+                self.deck1 = self.numbers * 4
+                self.game()
+            else:
+                self.game()
         else:
             print("Thank you for coming. We hope you have enjoyed your stay. Looking forward to see you again!")
     
     
     def game(self):
         
+        self.userhand = 0
+        self.croupierhand = 0
         
         # Mezclar las cartas
         random.shuffle(self.deck1)
@@ -131,24 +139,25 @@ class BlackJack():
                             print("Your 5th card is {}. The value of your hand is {}. Now is croupier turn.".format(user_card5, self.userhand))
                         else:
                             print("Your final hand value is {}. Now is croupier turn.".format(user_card4, self.userhand))
-                            BlackJack().croupier()
+                            self.croupier()
                     
                     else:
                         print("Your 4th card is {}. The value of your hand is {}. You have lost this hand." .format(user_card4, self.userhand))
-                        self.userhand = 0
-                                                    
+                        self.play_other_hand()                            
                 else:
                     print("Your final hand value is {}. Now is croupier turn.".format(self.userhand))
-                    BlackJack().croupier()
+                    self.croupier()
             
             else:
                 print("Your 3rd card is {}. The value of your hand is {}. You have lost this hand." .format(user_card3, self.userhand))
                 self.userhand = 0
+                self.play_other_hand()
                 
         else:
             print("Your final hand value is {}. Now is croupier turn.".format(self.userhand))
-            BlackJack().croupier()
+            self.croupier()
             
 
 if __name__=="__main__":
     BlackJack().welcome()
+
