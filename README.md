@@ -28,10 +28,10 @@ Antes de empezar a introducir código voy a redactar los elementos que forman el
 3. Repartir 1 carta al usuario y a la banca, boca arriba. La banca en último lugar.
 4. Repartir 1 carta al usuario (boca arriba) y a la banca (boca abajo).
 5. Turno del usuario. El usuario podrá:
-	5.1 Si tiene algún As, decidir si el As vale 1 u 11
-	5.2 Si las dos cartas tienen el mismo valor, podrá separar y doblar apuesta
-	5.4 Pedir carta – Si  el valor total no es superior a 21. Si recibe un As debe decidir si su valor es 1 u 11
-	5.5 Plantarse – mantiene el valor de sus cartas
+	- Si tiene algún As, decidir si el As vale 1 u 11
+	- Si las dos cartas tienen el mismo valor, podrá separar y doblar apuesta
+	- Pedir carta – Si  el valor total no es superior a 21. Si recibe un As debe decidir si su valor es 1 u 11
+	- Plantarse – mantiene el valor de sus cartas
 6. Turno de la banca: deberá pedir carta si el valor es igual o inferior a 16, y plantarse si el valor es de 17 a 21. Es eliminada si el valor es superior a 21
 7. En caso de que ninguno de los dos jugadores haya sido eliminado, se comprueba el resultado.
 8. Una vez acabada la partida, se ofrece al jugador la posibilidad de volver a jugar otra partida.
