@@ -39,4 +39,3 @@ Files in my repo:
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
 [Repository](https://github.com/mkamilam/PR01-project-python.git)  
-[Slides](https://slides.com/)  
