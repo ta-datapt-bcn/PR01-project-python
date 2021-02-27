@@ -1,74 +1,46 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# PR01-project-python
-# Build your own game!
+# Hangman
+*Kamila Munera*
 
-First project of the Module 1
+*Feb 2021, Ironhack Barcelona*
 
 ## Content
 - [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Rules](#rules)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
 ## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+1st project to present. Game hangman//El ahorcado
 
-You will also present your game to the class with a **10 minutes presentation**. 
+## Rules
+In this game you have 6 tries to guess the letter of a word, if you guess wrong you loose a life which is represented with a part of the body drawed, you loose once the whole body is drawed.  
 
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
+## Workflow
+1. Planed the project [watched videos on how to do it]
+2. Notes [Made notes on the flow I wanted my code to have]
+3. Kanban [planned Kanban ]
+4. started coding and continued with debugging. 
+5. slides & readme. 
 
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
+## Organization
+Github Kanban board 
 
-## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Create a folder /game/ to wrap your code files.
-* Build your own code from scratch (except for the Escape Room). 
-* Include a README.MD for your game.
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
+Files in my repo:
+- Gitignore
+- Readme
+- Game to execute
+- Slides
+- Github Kanban
 
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using a Kanban, a Trello board or a github project. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
+## Links
+Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
-
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Thursday|  
-|:--------:|
-* Choose your game.
-
-
-| Saturday to Friday|  
-|:--------:|
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Once you finish, start coding!
-* Make the Presentation
-
-| Saturday|  
-|:--------:|
-* Time to present! 
+[Repository](https://github.com/mkamilam/PR01-project-python.git)  
+[Slides](https://slides.com/)  
+ 
 
 ## Presentation
 The presentation time limit is **10 minutes**! 
