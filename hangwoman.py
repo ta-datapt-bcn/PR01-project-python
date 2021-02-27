@@ -68,16 +68,16 @@ to_guess = "-" * len(word)
 
 print( "Hi! let's play Hangwomen!")
 player = input("What is your name? \n")
-print(f"Ok {player}, below are the rules: \n ""1. I will choose a word and you need to guess the word \n 2. You have a total of 6 tries, you can only enter 1 letter at a time, if you enter more than 1, it will be counted as a mistake. \n Let's start!")
+print(f"Ok {player}, below are the rules: \n 1. I will choose a word and you need to guess the word \n 2. You have a total of 6 tries, you can only enter 1 letter at a time, if you enter more than 1, it will be counted as a mistake. \n Let's start!")
 
 n = 6
 stage = pictures[n]
 
-def check_game_over():
+def check_game_over(): # we check if the user lost. 
     global n
 
     if n == 0:
-        print(f"Auch! your hangman is dead, you lost! \n The word {word}")
+        print(f"Auch! your hangman is dead, you lost! \n The word i choose is: {word}")
 
     else:
         print(pictures[n])
@@ -86,13 +86,11 @@ def check_game_over():
 
     return n > 0
 
-# Game execution
-
-def ask_user_guess():
+def ask_user_guess(): 
     guess = input("Please input the letter you want to guess: \n").upper()
     return guess[0]
 
-def update_cypher(guess):
+def update_cypher(guess): # to update the lines with the letters player guesses
     global word
     global to_guess
     chars = []
@@ -103,7 +101,8 @@ def update_cypher(guess):
             chars.append(to_guess[i])
     to_guess = "".join(chars)
 
-while check_game_over() > 0:
+#loop for the game exec. 
+while check_game_over() > 0: 
     user_letter = ask_user_guess() 
     if user_letter in word:    
         update_cypher(user_letter)
