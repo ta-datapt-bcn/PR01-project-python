@@ -7,7 +7,7 @@ pictures = [
  """
   __________
   |        |
-  |       \😀/
+  |       \👩/
   |        |
   |       / \ 
  _|____
@@ -16,7 +16,7 @@ pictures = [
  """
   __________
   |        |
-  |       \😀/
+  |       \👩/
   |        |
   |       / 
  _|____
@@ -25,7 +25,7 @@ pictures = [
  """
   __________
   |        |
-  |       \😀/
+  |       \👩/
   |        |
   |      
  _|____
@@ -33,7 +33,7 @@ pictures = [
  """
   __________
   |        |
-  |       \😀
+  |       \👩
   |        |
   |      
  _|____
@@ -41,7 +41,7 @@ pictures = [
  """
   __________
   |        |
-  |        😀
+  |        👩
   |        |
   |     
  _|____
@@ -49,7 +49,7 @@ pictures = [
  """
   __________
   |        |
-  |        😀
+  |        👩
   |        
   |     
  _|____
@@ -64,12 +64,11 @@ pictures = [
  """]
 
 word= (random.choice(words_upper))
-print(word)
 to_guess = "-" * len(word)
 
 print( "Hi! let's play Hangwomen!")
 player = input("What is your name? \n")
-print(f"Ok {player}, below are the rules: \n ""1. I will choose a word and you need to guess the word \n 2. You have a total of 6 tries, you can either try to guess a letter or a word \n Let's start!")
+print(f"Ok {player}, below are the rules: \n ""1. I will choose a word and you need to guess the word \n 2. You have a total of 6 tries, you can only enter 1 letter at a time, if you enter more than 1, it will be counted as a mistake. \n Let's start!")
 
 n = 6
 stage = pictures[n]
@@ -111,7 +110,7 @@ while check_game_over() > 0:
         print(f"Great! the letter {user_letter} is part of the word")
 
         if to_guess ==  word:
-            print("Congratulations, you guesses your mother fucker! ")
+            print(f"Congratulations {player}, you guessed the word!")
             break
     else:
         n = n - 1
