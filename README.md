@@ -1,86 +1,40 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # PR01-project-python
-# Build your own game!
+# Mastermind
 
 First project of the Module 1
 
 ## Content
-- [Project Description](#project-description)
-- [Games](#games)
+- [About the project](#about-the-project)
+- [Mastermind](#mastermind)
 - [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Planning](#planning)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
 
-## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+## About the project
+In this Ironhack project I was tasked with creating my first software using Python.
+I chose the classic Mastermind game.
 
-You will also present your game to the class with a **10 minutes presentation**. 
-
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
-
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
+## Mastermind
+In Mastermind, one player picks a secret code that consists of 4 pegs of 6 different colors. The colors can be repeated, meaning the code may be 4 green pegs. 
+The second player has to guess the code. He has 12 attempts. 
+After each attempt, the first player will provide feedback to help the second player guess the code. 
+They will provide a black peg for each color peg that is the right color, in the right place.
+They will provide a white peg for each color peg that is the right color, but in the wrong place. 
+For the sake of simplicity, I have made it a numeric code (with numbers from 0 to 5).
 
 ## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Create a folder /game/ to wrap your code files.
-* Build your own code from scratch (except for the Escape Room). 
-* Include a README.MD for your game.
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
+During this project I learned to:
+* Fork and manage my own git repository. 
+* Create a folder /game/ to wrap my code files.
+* Build my own code from scratch. 
+* Include a README.MD for my game.
+* Put into practice the basic python concepts learned during the past weeks.
 
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using a Kanban, a Trello board or a github project. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
+## Planning
+This project was planned with a Kanban board on Trello. You can find a screenshot in the repository. 
 
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
-
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Thursday|  
-|:--------:|
-* Choose your game.
-
-
-| Saturday to Friday|  
-|:--------:|
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Once you finish, start coding!
-* Make the Presentation
-
-| Saturday|  
-|:--------:|
-* Time to present! 
-
-## Presentation
-The presentation time limit is **10 minutes**! 
-
-The slides of your presentation must include the content listed below and a demo of your game:
-
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Learnings    
-* If I were to start from scratch...    
-* Improvements  
-* Highlights  
-* Demo (ONE MINUTE)
+## Roadmap
+The project can be further improved by creating a physical board. This could be done in the code itself or with Pygame. 
