@@ -40,8 +40,8 @@ Antes de empezar a introducir código voy a redactar los elementos que forman el
 #### Resultado:
 1. El usuario que se ha pasado de 21 no entra en el reparto 
 2. Si el usuario tiene un valor más cercano a 21 que la banca
-	2.1. Si es Black jack, gana apuesta x 2,5 
-	2.2. Si no es Black jack, gana apuesta x 2
+	- Si es Black jack, gana apuesta x 2,5 
+	- Si no es Black jack, gana apuesta x 2
 3. Si el usuario tiene el mismo valor que la banca, recupera la apuesta
 4. Si el usuario tiene un valor más lejano a 21 que la banca, pierde la apuesta
 
