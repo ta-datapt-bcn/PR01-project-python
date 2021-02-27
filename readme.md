@@ -38,4 +38,5 @@ Battleship is a strategy type guessing game for two players. It is played on rul
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
 [Repository](https://github.com/MarcosPalacios/PR01-project-python)  
-[Trello](https://trello.com/b/zNno0vh8/battleship-project)  
+[Trello](https://trello.com/b/zNno0vh8/battleship-project)
+[Slides](https://drive.google.com/file/d/1t_5O3TCLCZw8j9HTxCMrJ5VpoKJ2ji05/view?usp=sharing)
