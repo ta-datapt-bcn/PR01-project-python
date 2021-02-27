@@ -40,9 +40,3 @@ Include links to your repository, slides and trello/kanban board. Feel free to i
 
 [Repository](https://github.com/mkamilam/PR01-project-python.git)  
 [Slides](https://slides.com/)  
- 
-
-## Presentation
-The presentation time limit is **10 minutes**! 
-
-The slides of your presentation must include the content listed below and a demo of your game:
