@@ -22,14 +22,14 @@ You will also present your game to the class with a **10 minutes presentation**.
 ## Games
 You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
 
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
+* Strong Random Password Generator [example](https://passwordsgenerator.net/)
+* Guess The Number [example](https://www.mathsisfun.com/games/guess_number.html)
+* Hangman  [example](https://www.hangmanwords.com/play)
+* Message Encryption & Decryption [example](https://www.online-toolz.com/tools/text-encryption-decryption.php)
+* Mastermind [example](https://www.webgamesonline.com/mastermind/)
+* Tic Tac Toe [example](https://playtictactoe.org/)
+* Blackjack [example](https://www.247blackjack.com/) 
+* Soldier & Dice (Risk) [example](https://dominating12.com/)
 * Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
 
 ## Project Goals
