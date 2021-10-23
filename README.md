@@ -1,86 +1,47 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# PR01-project-python
-# Build your own game!
+# RISK
+*Akram Tamimi Zeiat*
 
-First project of the Module 1
+*Data Analytics Part-Time, Barcelona & 2021-10-23*
 
 ## Content
 - [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Rules](#rules)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
 ## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+In the following project a game is programmed using python and its respective functions and libraries. In my case, I was inspired by the Risk game, due to its complex algorithms, and created a variant inspired by the history of my country.
+## Rules
+* The rules are very simple, conquer and expand your empire or lose your territories.
+* At the beginning of each round you will roll a dice three times, and depending on the numbers that come out you will be assigned a specific number of soldiers.
+* You will place the soldiers in the territory that seems most appropriate
+* When the soldiers are assigned to their proper positions the attack will begin
 
-You will also present your game to the class with a **10 minutes presentation**. 
+## Workflow
+In this project I followed the next steps:
+1. Investigated the rules of the game
+2. Played the game to understand it better
+3. Thought about a variant
+4. Writed the pseucode in a sheet
+5. Started to programm it
+6. Joined all the functions in a class
+7. Changed the format to .py
+8. Executed it
+## Organization
+How did you organize your work? Did you use any tools like a trello or kanban board?
 
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
+I used a trello to organize my work.
 
-* Strong Random Password Generator [example](https://passwordsgenerator.net/)
-* Guess The Number [example](https://www.mathsisfun.com/games/guess_number.html)
-* Hangman  [example](https://www.hangmanwords.com/play)
-* Message Encryption & Decryption [example](https://www.online-toolz.com/tools/text-encryption-decryption.php)
-* Mastermind [example](https://www.webgamesonline.com/mastermind/)
-* Tic Tac Toe [example](https://playtictactoe.org/)
-* Blackjack [example](https://www.247blackjack.com/) 
-* Soldier & Dice (Risk) [example](https://dominating12.com/)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
+What does your repository look like? Explain your folder and file structure.
 
-## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Create a folder /game/ to wrap your code files.
-* Build your own code from scratch (except for the Escape Room). 
-* Include a README.MD for your game.
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
+My repository is very simple.
+I have my code in jupyter format and this Readme to explain the project
+## Links
+Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using a Kanban, a Trello board or a github project. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
-
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
-
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Thursday|  
-|:--------:|
-* Choose your game.
-
-
-| Saturday to Friday|  
-|:--------:|
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Once you finish, start coding!
-* Make the Presentation
-
-| Saturday|  
-|:--------:|
-* Time to present! 
-
-## Presentation
-The presentation time limit is **10 minutes**! 
-
-The slides of your presentation must include the content listed below and a demo of your game:
-
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Learnings    
-* If I were to start from scratch...    
-* Improvements  
-* Highlights  
-* Demo (ONE MINUTE)
+[Repository](https://github.com/)  
+[Slides] -> you can see them in 
+[Trello](https://trello.com/invite/b/zMGXZvm8/ac650859841ab868c480db83f290d515/risk)  
