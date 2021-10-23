@@ -41,7 +41,6 @@ My repository is very simple.
 I have my code in jupyter format and this Readme to explain the project
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
-
-[Repository](https://github.com/)  
+ 
 [Slides] -> you can see them in 
 [Trello](https://trello.com/invite/b/zMGXZvm8/ac650859841ab868c480db83f290d515/risk)  
